@@ -1,0 +1,85 @@
+---
+title: "Final Project"
+author: Huihai Wang
+output: 
+  html_notebook:
+    toc: TRUE
+    toc_float: TRUE
+---
+
+
+## install packages
+```{r}
+if(!require('sf'))install.packages('sf')
+if(!require('raster'))install.packages('raster')
+if(!require('dplyr'))install.packages('dplyr')
+if(!require('spData'))install.packages('spData')
+
+library(sf)
+library(raster)
+library(dplyr)
+library(spData)
+
+if(!require('spDataLarge'))install.packages("spDataLarge", repos = "https://nowosad.github.io/drat/", type = "source")
+library(spDataLarge)
+library(tmap)
+library(leaflet)
+library(mapview)
+library(ggplot2)
+library(shiny)
+```
+## load dataset
+```{r}
+if(!require('rgdal'))install.packages('rgdal')
+library(rgdal)
+shp <- readOGR(".", 'tract_crime')
+if(!require('tmap'))install.packages('tmap')
+library(tmap)
+df <- shp@data
+tract <- shp
+```
+## The distribution of crimes
+```{r}
+map_tract <- tm_shape(tract,name = 'X2018_Murde') + tm_polygons('X2018_Murde')+tm_shape(tract,name = 'X2018_Motor') + tm_polygons('X2018_Motor')+tm_shape(tract,name = 'X2018_Larce') + tm_polygons('X2018_Larce')+tm_shape(tract,name = 'X2018_Prope') + tm_polygons('X2018_Prope')+tm_shape(tract,name = 'X2018_Rape') + tm_polygons('X2018_Rape')
+tmap_mode('view')
+map_tract
+```
+
+
+
+## Regression
+```{r}
+sub_df <- df[,c('Mean_NTL',"X2018_Murde","Pop_Dens_1","Employ_R_1","Poverty__1","Educatio_1","Median_I_1","House_De_1","Vacant_R_1","House_Va_1","Room_Num_1","X2018_Motor","X2018_Larce","X2018_Prope","X2018_Rape","X2018_Murde")]
+sub_df
+```
+
+```{r}
+library(car)
+full.model <- lm(sub_df$X2018_Murde.1 ~sub_df$Mean_NTL + sub_df$Pop_Dens_1 + sub_df$Employ_R_1 + sub_df$Poverty__1 + sub_df$Educatio_1 + sub_df$Median_I_1 + sub_df$House_De_1 + sub_df$Vacant_R_1 + sub_df$House_Va_1 + sub_df$Room_Num_1)
+reduced.model <- step(full.model, direction = 'backward')
+reduced.model
+```
+```{r}
+full.model <- lm(sub_df$X2018_Rape~sub_df$Mean_NTL + sub_df$Pop_Dens_1 + sub_df$Employ_R_1 + sub_df$Poverty__1 + sub_df$Educatio_1 + sub_df$Median_I_1 + sub_df$House_De_1 + sub_df$Vacant_R_1 + sub_df$House_Va_1 + sub_df$Room_Num_1)
+reduced.model <- step(full.model, direction = 'backward')
+reduced.model
+```
+```{r}
+full.model <- lm(sub_df$X2018_Prope~sub_df$Mean_NTL + sub_df$Pop_Dens_1 + sub_df$Employ_R_1 + sub_df$Poverty__1 + sub_df$Educatio_1 + sub_df$Median_I_1 + sub_df$House_De_1 + sub_df$Vacant_R_1 + sub_df$House_Va_1 + sub_df$Room_Num_1)
+reduced.model <- step(full.model, direction = 'backward')
+reduced.model
+```
+```{r}
+full.model <- lm(sub_df$X2018_Larce ~ sub_df$Mean_NTL + sub_df$Pop_Dens_1 + sub_df$Employ_R_1 + sub_df$Poverty__1 + sub_df$Educatio_1 + sub_df$Median_I_1 + sub_df$House_De_1 + sub_df$Vacant_R_1 + sub_df$House_Va_1 + sub_df$Room_Num_1)
+reduced.model <- step(full.model, direction = 'backward')
+reduced.model
+```
+```{r}
+full.model <- lm(sub_df$X2018_Motor ~ sub_df$Mean_NTL + sub_df$Pop_Dens_1 + sub_df$Employ_R_1 + sub_df$Poverty__1 + sub_df$Educatio_1 + sub_df$Median_I_1 + sub_df$House_De_1 + sub_df$Vacant_R_1 + sub_df$House_Va_1 + sub_df$Room_Num_1)
+reduced.model <- step(full.model, direction = 'backward')
+reduced.model
+```
+
+
+
+
