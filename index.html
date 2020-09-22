@@ -24,6 +24,26 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) #cye-workaround-body {-webkit
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}</style>
+<!-- <style> div.researchItem {width:50%; background: #ffffff; padding-right: 2ch;}</style> -->
+<style>div.col-111 {width:30%;}</style>
+<style> div.researchItem{-webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 15px;
+    line-height: 1.42857143;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 30%;
+    z-index: 2;
+    right: 0;
+    margin: 2px 1px 3px 4px;
+    background-color: ghostwhite;
+    padding-left: 15 px ;
+    padding-right: 15 px;}</style>
 </head>
 <body class="" style="" data-gr-c-s-loaded="true">
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
@@ -36,7 +56,7 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) #cye-workaround-body {-webkit
 
                 <!-- Logo -->
                     <div id="logo">
-                        <span class="image avatar48"><img src="images/Huihai.jpg" alt=""></span>
+                        <span class="image avatar48" href='#top'><a href="#top"><img src="images/Huihai.jpg" alt=""></a></span>
                         <h1 id="title">Huihai Wang</h1>
                         <p>GeoAI | Smart City</p>
                     </div>
@@ -45,8 +65,8 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) #cye-workaround-body {-webkit
                 
                     <nav id="nav">
                         <ul>
-                            <li><a href="#top" id="top-link" class="scrolly active" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="icon fa-home">About Me</span></a></li>
-                            <li><a href="#Research" id="portfolio-link" class="scrolly" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="icon fa-th">Research</span></a></li>
+                            <li><a href="#about" id="top-link" class="scrolly active" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="icon fa-home">About Me</span></a></li>
+                            <li><a href="#research" id="portfolio-link" class="scrolly" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="icon fa-th">Research</span></a></li>
                             <!-- <li><a href="#about" id="portfolio-link" class="scrolly" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="icon fa-th">Lab09</span></a></li> -->
                             <!-- <li><a href="script.nb.html" id="contact-link" class="scrolly" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="icon fa-user">Fianl_Project</span></a></li> -->
                             <li><a href="#publications" id="contact-link" class="scrolly" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="icon fa-user">Publications</span></a></li>
@@ -94,13 +114,14 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) #cye-workaround-body {-webkit
                 </section>
 
             <!-- About Me -->
-                <section id="about" class="three">
+                <section id="about" class="two">
+                    <div class="container">
                         <header>
                             <h2 style="font-weight: bolder;margin-bottom: 0%; border-bottom: 0ch;padding-bottom: 0ch;">About Me</h2>
                         </header>
 
                         <div class="row">
-                            <div class="col-4" style="padding-top: 0ch;">
+                            <div class="col-111" style="padding-top: 0ch;">
                                 <img src="images/Huihai.jpg" alt="" style="width: 70%;">
                                 <div align='center'>
                                     <h4 align='center' style="width: 50%; font-weight: bolder; color: #000000;">Huihai Wang <br /> (王慧海)</h3>
@@ -115,8 +136,6 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) #cye-workaround-body {-webkit
                                 <p align='left' style="margin-bottom: 1ch;">1. 2018-now M.A. in Geography. Binghamton University, NY, USA.<br />2. 2018 B.S. in GIS. Wuhan University of Technology, Wuhan, China</p>
                             </div>
                         </div>
-                        <div class="container">
-
                     </div>
                 </section>
 
@@ -128,18 +147,27 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) #cye-workaround-body {-webkit
                             <h2>Research</h2>
                         </header>
 
-                        <p>d dfaodVitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-                        egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-                        Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-                        fusce hendrerit lacus ridiculus.</p>
+                    <div class="row">
+                        <div class="researchItem" >
+                            <a href="#publications" class="research-link" data-toggle="modal">
+                            <img class="image center" src="images/Huihai.jpg" alt style="width: 90%; ">
+                            </a>
+                            
+                        </div>
 
-                        <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><small><a href="//gis-core.maps.arcgis.com/apps/Embed/index.html?webmap=b59faaacdd8243189a7e21e41fb9a403&amp;extent=-88.3431,42.8404,-87.3289,43.2289&amp;home=true&amp;zoom=true&amp;scale=true&amp;search=true&amp;searchextent=true&amp;legend=true&amp;basemap_gallery=true&amp;disable_scroll=true&amp;theme=dark" style="color:#0000FF;text-align:left" target="_blank">View larger map</a></small><br><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Test" src="//gis-core.maps.arcgis.com/apps/Embed/index.html?webmap=b59faaacdd8243189a7e21e41fb9a403&amp;extent=-88.3431,42.8404,-87.3289,43.2289&amp;home=true&amp;zoom=true&amp;previewImage=false&amp;scale=true&amp;search=true&amp;searchextent=true&amp;legend=true&amp;basemap_gallery=true&amp;disable_scroll=true&amp;theme=dark"></iframe></div>
+                        <div class="researchItem" >
+                            <img class="image center" src="images/Huihai.jpg" alt style="width: 90%; ">
+                        </div>
 
+                        <div class="researchItem" >
+                            <img class="image center" src="images/Huihai.jpg" alt style="width: 90%; ">
+                        </div>
+                    </div>
                     </div>
                 </section>
 
             <!-- Publications -->
-            <section id="publications" class="two">
+            <section id="publications" class="three">
                 <div class="container">
 
                     <header>
@@ -156,34 +184,6 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) #cye-workaround-body {-webkit
                 </div>
             </section>
 
-            <!-- Contact -->
-                <section id="contact" class="four inactive">
-                    <div class="container">
-
-                        <header>
-                            <h2>Contact</h2>
-                        </header>
-
-                        <p>Elementum sem parturient nulla quam placerat viverra
-                        mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-                        donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-                        orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
-                        <form method="post" action="#">
-                            <div class="row">
-                                <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name"></div>
-                                <div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email"></div>
-                                <div class="col-12">
-                                    <textarea name="message" placeholder="Message"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <input type="submit" value="Send Message">
-                                </div>
-                            </div>
-                        </form>
-
-                    </div>
-                </section>
 
         </div>
 

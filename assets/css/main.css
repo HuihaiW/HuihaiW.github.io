@@ -234,7 +234,7 @@ input, select, textarea {
 
 			.container {
 				width: 1200px;
-			}
+			}mn
 
 		}
 
@@ -269,6 +269,51 @@ input, select, textarea {
 			}
 
 		}
+	.ResearchItemContainer {
+		margin: 0 auto;
+		max-width: 30%;
+		width: 400px;
+	}
+	
+			@media screen and (min-width: 961px) and (max-width: 1880px) {
+	
+				.ResearchItemContainer {
+					width: 400px;
+				}mn
+	
+			}
+	
+			@media screen and (min-width: 961px) and (max-width: 1620px) {
+	
+				.ResearchItemContainer {
+					width: 320px;
+				}
+	
+			}
+	
+			@media screen and (min-width: 961px) and (max-width: 1320px) {
+	
+				.ResearchItemContainer {
+					width: 30%;
+				}
+	
+			}
+	
+			@media screen and (max-width: 960px) {
+	
+				.ResearchItemContainer {
+					width: 30%;
+				}
+	
+			}
+	
+			@media screen and (max-width: 736px) {
+	
+				.ResearchItemContainer {
+					width: 30%;
+				}
+	
+			}
 
 /* Row */
 
@@ -2250,11 +2295,11 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: rgb(255, 255, 255);
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #dfe2e2;
 			}
 
 			#main > section.four {
