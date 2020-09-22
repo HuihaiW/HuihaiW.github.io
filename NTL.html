@@ -153,19 +153,32 @@ margin-right: -15px;
                         <div class="researchItem" style="width: 45%; position: relative; left: 2%;background-color: rgb(255, 255, 255);" >
 
                             <div>                               
-                                    <h2>Light Pole Detection</h2>
-                                    <p align='left'>You Only Look Once (YOLOv3) is one of the fastest object detection algorithm with high accuracy. We annotated 17200 images to create training dataset, validation dataset and test dataset with the size of 12700, 4200 and 300 respectively.the overall accuracy of our model is 96.7% with the Recall and Precision of our model is 94.3% and 99.3%, respectively.</p>
+                                    <h2>NTL Prediction</h2>
+                                    <p align='left'>We downloaded GSV images every 20 meters along streets, and two images perpendicular to street are downloaded for each point. Using our deep learning models, we got the light pole and land use information for each point at two directions. Then, the land use information is distributed to tax parcel map of Milwaukee County. Finally, we got a predicted light pole count map and a predicted land use map.</p>
+                                    <p align='left'>To create nighttime light estimation models in different spatial resolution, three fishnets with cell size of 180m, 60m and 30m are created to extract real light tension(reference), light pole count and land use areas at corresponding locations.</p>
+                                    <p align='left'>Finally, models for 3 spatial resolution are developed. The created NTL maps, predicted light pole count maps as well as predicted land use map are shown in the activate map</p>
                             </div>
-                            <img class="image center" src="images/YOLOv3.png" alt style="width: 100%; border-width: 20px;border-color: midnightblue;">
                         </div>
 
-                        <div class="researchItem" style="width: 50%; position: relative; left: 2%; padding-top: 0ch;" >
+                        <div class="researchItem" style="width: 50%; position: relative; left: 2%; padding-top: 5ch;" >
 
                                 <img class="image center" src="images/lightpole_result.png" alt style="width: 100%;">
                         </div>
                     </div>
                 </div>
             </section>
+
+            <!-- team -->
+            <section id="NTL_Prediction" class="three" style="background-color: #333;">
+                <div class="container">
+
+                    <div style="width: 50%;">
+                        <h3 align='left' style="color: rgb(255, 255, 255);">Team</h3>
+                        <p align='left' style="color: white;font-size: 15px;line-height: 25px;">Chengbin Deng: Director<br /> Huihai Wang: Project Designer, Lead Researcher <br /> Ailing Jin: Researcher</p>
+                    </div>
+
+                </div>
+            </section> 
         </div>
 
     <!-- Scripts -->
