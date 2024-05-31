@@ -5,25 +5,148 @@
             "has_door": false,
             "has_elevator": false,
             "has_stairs": false,
-            "max_clearance": 10.0,
-            "max_speed": 50.0,
-            "s0_id": 0,
-            "s1_id": 1
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 2,
+            "s1_id": 4
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 5,
+            "s1_id": 4
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 6,
+            "s1_id": 5
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 4,
+            "s1_id": 7
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 8,
+            "s1_id": 7
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 6,
+            "s1_id": 9
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 9,
+            "s1_id": 10
         }
     ],
     "nodes": [
         {
             "id": 0,
             "loc": {
-                "x": 0,
-                "y": 0.0
+                "x": -1.8353670835494995,
+                "y": 162.60226440429688
             }
         },
         {
             "id": 1,
             "loc": {
-                "x": 10.0,
-                "y": 0.0
+                "x": 1.982189655303955,
+                "y": 161.85153198242188
+            }
+        },
+        {
+            "id": 2,
+            "loc": {
+                "x": 5.754311561584473,
+                "y": 171.75967407226563
+            }
+        },
+        {
+            "id": 3,
+            "loc": {
+                "x": 3.889747142791748,
+                "y": 170.16796875
+            }
+        },
+        {
+            "id": 4,
+            "loc": {
+                "x": 5.76568078994751,
+                "y": 173.7834014892578
+            }
+        },
+        {
+            "id": 5,
+            "loc": {
+                "x": 6.5867180824279785,
+                "y": 176.0383758544922
+            }
+        },
+        {
+            "id": 6,
+            "loc": {
+                "x": 7.15928840637207,
+                "y": 177.1835174560547
+            }
+        },
+        {
+            "id": 7,
+            "loc": {
+                "x": 5.192777633666992,
+                "y": 175.1160125732422
+            }
+        },
+        {
+            "id": 8,
+            "loc": {
+                "x": 4.012519836425781,
+                "y": 174.95433044433594
+            }
+        },
+        {
+            "id": 9,
+            "loc": {
+                "x": 8.329354286193848,
+                "y": 177.4280242919922
+            }
+        },
+        {
+            "id": 10,
+            "loc": {
+                "x": 9.15391731262207,
+                "y": 173.11119079589844
             }
         }
     ]
