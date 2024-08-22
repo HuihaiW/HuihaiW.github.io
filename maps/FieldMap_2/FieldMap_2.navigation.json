@@ -1,0 +1,734 @@
+{
+    "edges": [
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 0.5,
+            "max_speed": 2.0,
+            "s0_id": 0,
+            "s1_id": 1
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 1,
+            "s1_id": 2
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 2,
+            "s1_id": 3
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 3,
+            "s1_id": 4
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 4,
+            "s1_id": 5
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 5,
+            "s1_id": 6
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 6,
+            "s1_id": 7
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 7,
+            "s1_id": 8
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 8,
+            "s1_id": 9
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 9,
+            "s1_id": 10
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 10,
+            "s1_id": 11
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 11,
+            "s1_id": 12
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 12,
+            "s1_id": 13
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 13,
+            "s1_id": 14
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 14,
+            "s1_id": 15
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 15,
+            "s1_id": 16
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 16,
+            "s1_id": 17
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 17,
+            "s1_id": 18
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 18,
+            "s1_id": 19
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 20,
+            "s1_id": 19
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 20,
+            "s1_id": 21
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 21,
+            "s1_id": 23
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 23,
+            "s1_id": 24
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 24,
+            "s1_id": 25
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 25,
+            "s1_id": 26
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 26,
+            "s1_id": 28
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 28,
+            "s1_id": 27
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 27,
+            "s1_id": 29
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 29,
+            "s1_id": 30
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 30,
+            "s1_id": 31
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 31,
+            "s1_id": 32
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 32,
+            "s1_id": 33
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 33,
+            "s1_id": 34
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 34,
+            "s1_id": 35
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 35,
+            "s1_id": 36
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 37,
+            "s1_id": 36
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 37,
+            "s1_id": 38
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 38,
+            "s1_id": 39
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 39,
+            "s1_id": 40
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 40,
+            "s1_id": 41
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 41,
+            "s1_id": 42
+        },
+        {
+            "has_automated_door": false,
+            "has_door": false,
+            "has_elevator": false,
+            "has_stairs": false,
+            "max_clearance": 1.0,
+            "max_speed": 2.0,
+            "s0_id": 42,
+            "s1_id": 43
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "loc": {
+                "x": 4.62507438659668,
+                "y": 174.5994415283203
+            }
+        },
+        {
+            "id": 1,
+            "loc": {
+                "x": 5.02579402923584,
+                "y": 183.21490478515625
+            }
+        },
+        {
+            "id": 2,
+            "loc": {
+                "x": 6.136845588684082,
+                "y": 192.7180633544922
+            }
+        },
+        {
+            "id": 3,
+            "loc": {
+                "x": 6.932671070098877,
+                "y": 205.5650177001953
+            }
+        },
+        {
+            "id": 4,
+            "loc": {
+                "x": 7.197947025299072,
+                "y": 211.09788513183594
+            }
+        },
+        {
+            "id": 5,
+            "loc": {
+                "x": 7.08425760269165,
+                "y": 217.19923400878906
+            }
+        },
+        {
+            "id": 6,
+            "loc": {
+                "x": 7.197947025299072,
+                "y": 221.97418212890625
+            }
+        },
+        {
+            "id": 7,
+            "loc": {
+                "x": 8.183256149291992,
+                "y": 222.6942138671875
+            }
+        },
+        {
+            "id": 8,
+            "loc": {
+                "x": 9.509634017944336,
+                "y": 222.9973907470703
+            }
+        },
+        {
+            "id": 9,
+            "loc": {
+                "x": 11.859217643737793,
+                "y": 222.84580993652344
+            }
+        },
+        {
+            "id": 10,
+            "loc": {
+                "x": 12.874432563781738,
+                "y": 223.17921447753906
+            }
+        },
+        {
+            "id": 11,
+            "loc": {
+                "x": 13.370089530944824,
+                "y": 224.35142517089844
+            }
+        },
+        {
+            "id": 12,
+            "loc": {
+                "x": 13.560554504394531,
+                "y": 227.91943359375
+            }
+        },
+        {
+            "id": 13,
+            "loc": {
+                "x": 13.25581169128418,
+                "y": 231.09384155273438
+            }
+        },
+        {
+            "id": 14,
+            "loc": {
+                "x": 12.963768005371094,
+                "y": 236.38880920410156
+            }
+        },
+        {
+            "id": 15,
+            "loc": {
+                "x": 12.682846069335938,
+                "y": 247.28469848632813
+            }
+        },
+        {
+            "id": 16,
+            "loc": {
+                "x": 12.682846069335938,
+                "y": 251.99940490722656
+            }
+        },
+        {
+            "id": 17,
+            "loc": {
+                "x": 12.005919456481934,
+                "y": 252.4973907470703
+            }
+        },
+        {
+            "id": 18,
+            "loc": {
+                "x": 9.598808288574219,
+                "y": 252.39015197753906
+            }
+        },
+        {
+            "id": 19,
+            "loc": {
+                "x": 7.394063949584961,
+                "y": 252.56961059570313
+            }
+        },
+        {
+            "id": 20,
+            "loc": {
+                "x": 1.3951083421707153,
+                "y": 253.33871459960938
+            }
+        },
+        {
+            "id": 21,
+            "loc": {
+                "x": -0.37381434440612793,
+                "y": 253.33871459960938
+            }
+        },
+        {
+            "id": 22,
+            "loc": {
+                "x": 6.3429646492004395,
+                "y": 251.56979370117188
+            }
+        },
+        {
+            "id": 23,
+            "loc": {
+                "x": -1.0916380882263184,
+                "y": 253.05670166015625
+            }
+        },
+        {
+            "id": 24,
+            "loc": {
+                "x": -2.9118337631225586,
+                "y": 250.0059814453125
+            }
+        },
+        {
+            "id": 25,
+            "loc": {
+                "x": -4.50130033493042,
+                "y": 247.82687377929688
+            }
+        },
+        {
+            "id": 26,
+            "loc": {
+                "x": -7.090593338012695,
+                "y": 246.80142211914063
+            }
+        },
+        {
+            "id": 27,
+            "loc": {
+                "x": -5.936947822570801,
+                "y": 245.62213134765625
+            }
+        },
+        {
+            "id": 28,
+            "loc": {
+                "x": -6.603498458862305,
+                "y": 245.92977905273438
+            }
+        },
+        {
+            "id": 29,
+            "loc": {
+                "x": -4.57820987701416,
+                "y": 244.26339721679688
+            }
+        },
+        {
+            "id": 30,
+            "loc": {
+                "x": -3.834749698638916,
+                "y": 242.9046630859375
+            }
+        },
+        {
+            "id": 31,
+            "loc": {
+                "x": -3.424564838409424,
+                "y": 242.08428955078125
+            }
+        },
+        {
+            "id": 32,
+            "loc": {
+                "x": -3.604020595550537,
+                "y": 240.39227294921875
+            }
+        },
+        {
+            "id": 33,
+            "loc": {
+                "x": -3.732203483581543,
+                "y": 229.00965881347656
+            }
+        },
+        {
+            "id": 34,
+            "loc": {
+                "x": -4.148191928863525,
+                "y": 220.66505432128906
+            }
+        },
+        {
+            "id": 35,
+            "loc": {
+                "x": -4.530612468719482,
+                "y": 219.31163024902344
+            }
+        },
+        {
+            "id": 36,
+            "loc": {
+                "x": -5.604369640350342,
+                "y": 218.58746337890625
+            }
+        },
+        {
+            "id": 37,
+            "loc": {
+                "x": -9.424946784973145,
+                "y": 218.7123260498047
+            }
+        },
+        {
+            "id": 38,
+            "loc": {
+                "x": -10.099166870117188,
+                "y": 217.86331176757813
+            }
+        },
+        {
+            "id": 39,
+            "loc": {
+                "x": -10.14910888671875,
+                "y": 215.31626892089844
+            }
+        },
+        {
+            "id": 40,
+            "loc": {
+                "x": -9.849453926086426,
+                "y": 214.2674102783203
+            }
+        },
+        {
+            "id": 41,
+            "loc": {
+                "x": -9.874424934387207,
+                "y": 213.14370727539063
+            }
+        },
+        {
+            "id": 42,
+            "loc": {
+                "x": -10.498702049255371,
+                "y": 203.70465087890625
+            }
+        },
+        {
+            "id": 43,
+            "loc": {
+                "x": -10.448760986328125,
+                "y": 182.20066833496094
+            }
+        }
+    ]
+}
